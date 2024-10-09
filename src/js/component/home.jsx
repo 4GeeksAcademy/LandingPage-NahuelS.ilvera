@@ -39,7 +39,7 @@ const Home = () => {
 			</nav>
 
 			{/* JumboTron */}
-			<Container className="my-5 ">
+			<Container className="my-5">
 				<div className="p-5 mb-4 bg-light rounded-3 text-start">
 					<h1 className="display-4">A Warm Welcome!</h1>
 					<p className="lead">
@@ -101,6 +101,11 @@ const Home = () => {
 					</Col>
 				</Row>
 			</Container>
+
+			{/* Footer */}
+			<footer className="bg-dark position-absolute text-white text-center py-3 w-100 bottom-0">
+				<p>Copyright - Nahuel Silvera 4Geeks Student</p>
+			</footer>
 		</div>
 	);
 };
